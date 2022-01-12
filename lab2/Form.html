@@ -1,75 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Form</title>
-</head>
-<body>
+    <style>
+        body {
+            background-color: cadetblue;
+        }
+        input {
+            border-radius: 8px;
+            border-width: 1px;
+        }
+        textarea {
+            border-radius: 8px;
+        }
+    </style>
+  </head>
+  <body>
     <div>
-        <h2>Application Form</h2>
-        <form>
-            <div>
-                <label for="name">
-                Name : <input type="text" id = "name">
-                </label>
-            </div>
-            <br>
-            <div>
-                <label for="gender">
-                Gender : &nbsp;&nbsp;&nbsp;Male<input type="radio" name="gender" checked><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Female<input type="radio" name="gender"><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Other <input type="radio" name="gender" id="gender">
-                </label>
-            </div>
-            <br>
-            <div>
-                <label for="mail">
-                Email : <input type="email" id="mail">
-                </label>
-            </div>
-            <br>
-            <div>
-                <label for="dob">
-                DOB : <input type="date" id="dob">
-                </label>
-            </div>
-            <br>
-            <div>
-                <label for="Experience">
-                    Work Experience : <input type="number" id ="Experience">
-                </label>
-            </div>
-            <br>
-            <div>
-                <label for="interest">
-                Are you Interested In Computer Science ? : <input type="checkbox" checked id="interest">
-                </label>
-            </div>
-            <br>
-            <div>
-                <label for="about">
-                Tell us something about you : <br> <textarea id="about" cols="30" rows="5"></textarea>
-                </label>
-            </div>
-            <br>
-            <div>
-                <label for="linkedin">
-                    LinkedIn Profile : <input type="url" id="linkedin">
-                </label>
-            </div>
-            <br>
-            <div>
-                <label for="resume">
-                    Resume : <input type="file" id="resume">
-                </label>
-            </div>
-            <br>
-            <div>
-                <input type="submit" value="Submit Now">&nbsp;&nbsp;&nbsp;<input type="reset" value="Reset">
-            </div>
-            
-        </form>
+      <h2>Application Form</h2>
+      <form>
+        <div>
+          <label for="name"> Name : <input type="text" id="name" /> </label>
+        </div>
+        <br />
+        <div>
+          <label for="gender">
+            Gender : &nbsp;&nbsp;&nbsp;Male<input
+              type="radio"
+              name="gender"
+            /><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Female<input
+              type="radio"
+              name="gender"
+            /><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            Other <input type="radio" name="gender" id="gender" />
+          </label>
+        </div>
+        <br />
+        <div>
+          <label for="mail"> Email : <input type="email" id="mail" /> </label>
+        </div>
+        <br />
+        <div>
+          <label for="dob"> DOB : <input type="date" id="dob" /> </label>
+        </div>
+        <br />
+        <div>
+          <label for="Experience">
+            Work Experience : <input type="number" id="Experience" />
+          </label>
+        </div>
+        <br />
+        <div>
+          <label for="interest">
+            Are you Interested In Computer Science ? :
+            <input type="checkbox" checked id="interest" />
+          </label>
+        </div>
+        <br />
+        <div>
+          <label for="about">
+            Tell us something about you : <br />
+            <textarea id="about" cols="30" rows="5"></textarea>
+          </label>
+        </div>
+        <br />
+        <div>
+          <label for="linkedin">
+            LinkedIn Profile : <input type="url" id="linkedin" />
+          </label>
+        </div>
+        <br />
+        <div>
+          <label for="resume">
+            Resume : <input type="file" id="resume" />
+          </label>
+        </div>
+        <br />
+        <div>
+          <input type="submit" value="Submit Now" />&nbsp;&nbsp;&nbsp;<input
+            type="reset"
+            value="Reset"
+          />
+        </div>
+      </form>
     </div>
-    
-</body>
+  </body>
 </html>
