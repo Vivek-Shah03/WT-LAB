@@ -1,0 +1,39 @@
+.surat{
+    margin: auto;
+    background-image: url("Images/businessCenter.jpeg");
+    width: 70%;
+    height: 550px;
+    background-repeat: no-repeat;
+    background-position: center cover;
+    border: 3px solid black;
+}
+
+.ahmedabad{
+    margin: auto;
+    background-image: url("Images/kankaria-lake-banner.jpeg");
+    width: 70%;
+    height: 550px;
+    background-repeat: no-repeat;
+    background-position: center cover;
+    border: 3px solid black;
+}
+
+.rajkot{
+    margin: auto;
+    background-image: url("Images/Rajkot.jpeg");
+    width: 70%;
+    height: 550px;
+    background-repeat: no-repeat;
+    background-position: center cover;
+    border: 3px solid black;
+}
+
+.goa{
+    margin: auto;
+    background-image: url("Images/beaches-goa.webp");
+    width: 70%;
+    height: 550px;
+    background-repeat: no-repeat;
+    background-position: center cover;
+    border: 3px solid black;
+}
